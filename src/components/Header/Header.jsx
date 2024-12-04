@@ -10,7 +10,7 @@ export default function Header() {
         <nav>
           <ul className={style.menu}>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Pizzas</a></li>
+            <li><a href="#">Posts</a></li>
             <li><a href="#">Contacts</a></li>
           </ul>
         </nav>

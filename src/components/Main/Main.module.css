@@ -1,6 +1,6 @@
-.section {
+/* .section {
 	padding: 100px 0;
-}
+} */
 
 .section_title {
 	font-size: 3rem;
@@ -11,12 +11,13 @@
 
 .tags_centered {
 	justify-content: center;
+	margin-top: 1rem;
 }
 
-.inline-form {
+.inline_form {
 	display: flex;
+	flex-direction: column;
 	gap: 1rem;
-	height: 1.5rem;
 }
 
 input {
@@ -24,4 +25,10 @@ input {
 	padding: 0 1rem;
 	border-radius: 0.5rem;
 	border: none;
+}
+
+.submit_btn {
+	background-color: blueviolet;
+	width: fit-content;
+	color: white;
 }
